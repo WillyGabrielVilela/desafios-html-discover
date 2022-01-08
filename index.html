@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios HTML</title>
+</head>
+
+<body>
+    <h2>Glossário</h2>
+
+    <h1>Estrutura HTML</h1>
+    <dl>
+        <dt>
+            <h2><strong>!DOCTYPE html</strong></h2>
+        </dt>
+        <dd>Define o tipo de documento como HTML 5</dd>
+
+        <dt>
+            <h2><strong>html</strong></h2>
+        </dt>
+        <dd>Define um documento HTML</dd>
+
+        <dt>
+            <h2><strong>head</strong></h2>
+        </dt>
+        <dd>Container para metadados, título da página, links...</dd>
+
+        <dt>
+            <h2><strong>body</strong></h2>
+        </dt>
+        <dd>Corpo do documento</dd>
+    </dl>
+    <hr>
+    <h2><strong>Formulário de contato</strong></h2>
+    <form action="">
+        <fieldset>
+            <legend>
+                Entre em contato
+            </legend>
+            <br>
+            <label for="assunto"><strong>Assunto:</strong></label>
+            <select name="assunto" id="assunto">
+                <option value="">Selecione o assunto</option>
+                <option value="Suport">Suporte</option>
+                <option value="Sugestion">Sugestão</option>
+                <option value="Reclamation">Reclamação</option>
+
+            </select>
+            <br>
+            <br>
+
+            <label for="name"><strong>Nome Completo:</strong></label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Seu nome">
+            <br>
+            <br>
+            <label for="email"><strong>E-mail:</strong></label>
+            <br>
+            <input type="email" id="email" placeholder="email@seudominio.com">
+            <br>
+            <br>
+            <label for="message"><strong>Mensagem:</strong></label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" id="check">
+            <label for="check">Aceito receber novidades por e-mail</label>
+            <br>
+            <br>
+
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+    <hr>
+    <h2><strong>Lista de compras</strong></h2>
+
+    <h1><strong>Minha lista de compras</strong></h1>
+    <hr>
+    <input type="checkbox" id="item" checked>Leite
+    <br>
+    <input type="checkbox" id="item">Ovos
+    <br>
+
+    <input type="checkbox" id="item">Açucar
+    <br>
+
+    <input type="checkbox" id="item">Farinha
+    <br>
+    <br>
+
+    <hr>
+
+    <h2><strong>Quiz</strong></h2>
+
+    <h2><strong>Quiz sobre HTML</strong></h2>
+    <hr>
+    <form action="">
+       <ol>
+           <li>
+               <h3><strong>Pergunta 1</strong></h3>
+               <div>
+                   <input type="radio" name="q1" id="q1a" value="A">
+                   <label for="q1a">A) opção 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="q1b" value="B">
+                    <label for="q1b">B) opção 2</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q1" id="q1c" value="C">
+                    <label for="q1c">C) opção 3</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q1" id="q1d" value="D">
+                    <label for="q1d">D) opção 4</label>
+                 </div>
+                </li>
+                <li>
+                 <h3><strong>Pergunta 2</strong></h3>
+               <div>
+                   <input type="radio" name="q2" id="q2a" value="A">
+                   <label for="q2a">A) opção 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="q2b" value="B">
+                    <label for="q2b">B) opção 2</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q2" id="q2c" value="C">
+                    <label for="q2c">C) opção 3</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q2" id="q2d" value="D">
+                    <label for="q2d">D) opção 4</label>
+                 </div>
+                </li>
+                <li>
+                 <h3><strong>Pergunta 3</strong></h3>
+               <div>
+                   <input type="radio" name="q3" id="q3a" value="A">
+                   <label for="q3a">A) opção 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="q3b" value="B">
+                    <label for="q3b">B) opção 2</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q3" id="q3c" value="C">
+                    <label for="q3c">C) opção 3</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q3" id="q3d" value="D">
+                    <label for="q3d">D) opção 4</label>
+                 </div>
+                </li>
+                <li>
+                 <h3><strong>Pergunta 4</strong></h3>
+               <div>
+                   <input type="radio" name="q4" id="q4a" value="A">
+                   <label for="q4a">A) opção 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="q4b" value="B">
+                    <label for="q4b">B) opção 2</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q4" id="q4c" value="C">
+                    <label for="q4c">C) opção 3</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="q4" id="q4d" value="D">
+                    <label for="q4d">D) opção 4</label>
+                 </div>
+                 </li>
+                </ol>
+                <br>
+                <button>Enviar</button>
+
+
+     </form>
+
+     <hr>
+     <h2><strong>Blog Post</strong></h2>    
+
+     <h1><strong>My Blog</strong></h1>
+     <header>
+         <a href="#Home">Home</a>
+         <a href="#About">Sobre</a>
+         <a href="#Contact">Contato</a>
+
+     </header>
+
+     <article>
+         <h2>Titulo do Post</h2>
+         <img src="https://source.unsplash.com/random" alt="Imagem do post" width="400px">
+         <br>
+         <cite>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</cite>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, aliquam eveniet? Ipsum sint, cumque officia praesentium modi incidunt similique dignissimos exercitationem! Placeat exercitationem enim commodi eaque quidem saepe quibusdam consequuntur.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis molestiae veniam aut sit earum quia dolorum quas itaque, non odit repellat, sequi enim perferendis quibusdam atque pariatur molestias libero!</p>   
+     </article>
+     <hr>
+     <aside>
+         <p><strong>data:</strong>08/01/2021</p>
+         <img src="#" alt="Imagem do autor">
+         <p><strong>por:</strong>Jan Walkis</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti voluptate.</p>
+     </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+
+</body>
+
+</html>
